@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'authors#home'
+  root to: 'pages#home'
   resources :author, only: [:index] do
     resources :project, only: [:show]
   end
