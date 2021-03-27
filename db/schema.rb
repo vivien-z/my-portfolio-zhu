@@ -10,22 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_22_153427) do
+ActiveRecord::Schema.define(version: 2021_03_27_233812) do
 
   create_table "authors", force: :cascade do |t|
     t.string "name"
-    t.integer "project_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["project_id"], name: "index_authors_on_project_id"
   end
 
   create_table "projects", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.boolean "completed", default: false
+    t.integer "author_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["author_id"], name: "index_projects_on_author_id"
   end
 
+  add_foreign_key "projects", "authors"
 end
