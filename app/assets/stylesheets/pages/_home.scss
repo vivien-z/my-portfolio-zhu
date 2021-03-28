@@ -33,40 +33,49 @@
 }
 
 .block {
-  max-height: 380px;
-  padding: 36px 0 60px;
+  // max-height: 380px;
+  // border: 1px solid red;
   p {
     text-align: center;
   }
 }
+.b-black {
+  background: black;
+  color: white;
+  // border: 1px solid blue;
+}
+.b-white {
+  background: white;
+  color: black;
+  // border: 1px solid green;
+}
 
 .about {
-  // border: 1px solid red;
+  margin: 40px 0 60px;
 }
 
 .skill {
-  background: black;
-  color: white;
+    margin: 40px 0 60px;
 }
 
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .about {
-    max-height: 500px;
-  }
-}
+// // Smallest device
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .about {
+//     max-height: 500px;
+//   }
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .about {
-    max-height: 440px;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .about {
+//     max-height: 440px;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .about {
-    max-height: 420px;
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .about {
+//     max-height: 420px;
+//   }
+// }
 
