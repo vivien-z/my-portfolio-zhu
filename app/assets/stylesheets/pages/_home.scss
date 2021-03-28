@@ -17,6 +17,10 @@ h1 {
   padding: 6px 24px;
   background: black;
   width: 480px;
+  &:hover {
+    width: 540px;
+    padding-left: 50px;
+  }
 }
 
 h4 {
