@@ -1,6 +1,6 @@
 .navbar-lgn {
   justify-content: space-between;
-  background: white;
+  background: $m-y;
   min-height: 72px;
 }
 
@@ -14,15 +14,36 @@
 
 // dropdown
 .dropdown-menu {
-  background: red;
+  // background: rgba(255, 255, 255, 0.15);
+  background: transparent;
+  border: none;
+}
+
+.dropdown-item {
+  // border: 4px solid transparent;
+  // transition: 0.25s ease;
+  &:hover {
+    // background: rgba(255, 255, 255, 0.3);
+    // border: 4px solid black;
+    background: transparent;
+    font-weight: bold;
+  }
 }
 
 // navbar options
 .navbar-light .navbar-nav .nav-link {
   color: black;
-  padding-right: 58px;
+  margin-right: 58px;
+  transition: 0.25s ease;
+  &:hover {
+    color: black;
+    border-bottom: 4px solid black;
+  }
 }
 
 .navbar-light .navbar-nav .active {
   font-weight: 700;
+  .nav-link {
+    border-bottom: 4px solid black;
+  }
 }
