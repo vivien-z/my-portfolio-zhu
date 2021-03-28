@@ -1,1 +1,34 @@
-// Specific CSS for your home-page
+// banner structure
+.banner {
+  min-height: 600px;
+  background: #fee440;
+}
+
+.header{
+  padding-top: 280px;
+}
+
+// font style
+h1 {
+  font-family: $my-font-h;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+  padding: 6px 24px;
+  background: black;
+  width: 480px;
+  &:hover {
+    width: 540px;
+    padding-left: 50px;
+  }
+}
+
+h4 {
+  font-family: $my-font-h;
+  font-weight: 600;
+  color: white;
+  padding: 8px 24px;
+  background: black;
+  width: 440px;
+}
+
