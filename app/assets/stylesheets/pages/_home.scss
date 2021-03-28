@@ -1,9 +1,20 @@
+// banner structure
+.banner {
+  min-height: 600px;
+  background: #fee440;
+}
+
+.header{
+  padding-top: 280px;
+}
+
+// font style
 h1 {
   font-family: $my-font-h;
   font-weight: 600;
   font-size: 50px;
   color: white;
-  padding: 8px 24px;
+  padding: 6px 24px;
   background: black;
   width: 480px;
 }
@@ -17,11 +28,3 @@ h4 {
   width: 460px;
 }
 
-.banner {
-  min-height: 600px;
-  background: #fee440;
-}
-
-.hearder {
-  padding: 100px;
-}
