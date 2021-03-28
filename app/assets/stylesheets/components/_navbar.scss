@@ -17,6 +17,13 @@
 }
 
 // navbar options
-.nav-link {
-  color: black !important;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-right: 58px;
+}
+
+.navbar-light .navbar-nav .active {
+  font-weight: 700;
+  // .navbar {
+  // }
 }
