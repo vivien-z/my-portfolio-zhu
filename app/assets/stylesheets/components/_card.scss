@@ -1,11 +1,31 @@
-.card-pic {
-  // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  background-position: center;
+.card-project-list {
+  margin-top: 100px;
 }
 
+.card-pic {
+  // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
+  position: relative;
+  height: 220px;
+  width: 340px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 0;
+}
+
+.card-title {
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  padding: 6px 48px;
+  font-family: $my-font;
+  font-size: 24px;
+}
+.card-desc {
+  width: 80%;
+  margin-top: 18px;
+}
+
+
 .card-side {
-  width: 50%;
+  // width: 50%;
 }
