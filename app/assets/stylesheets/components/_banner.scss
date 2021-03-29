@@ -1,0 +1,28 @@
+.banner {
+  height: 600px;
+  background: #fee440;
+}
+
+.header{
+  padding-top: 280px;
+}
+
+// font style
+.banner h1 {
+  font-family: $my-font-h;
+  font-weight: 600;
+  font-size: 50px;
+  padding: 6px 24px;
+  width: 480px;
+  &:hover {
+    width: 540px;
+    padding-left: 50px;
+  }
+}
+
+.banner h4 {
+  font-family: $my-font-h;
+  font-weight: 600;
+  padding: 8px 24px;
+  width: 440px;
+}

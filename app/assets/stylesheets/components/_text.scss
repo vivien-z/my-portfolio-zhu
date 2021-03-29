@@ -11,13 +11,14 @@
 
 .text-t-s {
   font-weight: bold;
-  background: white;
-  color: black;
+  font-size: 18px;
+  color: white;
   text-align: center;
 }
 
 .text-t-line {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid $m-yellow;
+  font-weight: bold;
 }
 .text-containt {
 
