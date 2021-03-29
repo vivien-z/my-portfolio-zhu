@@ -10,6 +10,12 @@
         <div class="card-top d-flex">
           <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg" %>')">
             <p class="card-title text-wfbb">Bloom</p>
+            <%= link_to "http://bloomcommunity.site/", class: "card-icon i-link text-wfbb mr-1" do %>
+              <i class="fas fa-link"></i>
+            <% end %>
+            <%= link_to "https://github.com/Rom1023/bloom", class: "card-icon i-code text-wfbb" do %>
+              <i class="fas fa-code"></i>
+            <% end %>
           </div>
           <div class="card-desc">
             <p>Rails | Device | Cloudinary | PG search</p>
@@ -20,7 +26,7 @@
 
         <div class="card-bottom">
           <div>
-            <p>Hightlighted Functions</p>
+            <p class="card-dp text-wfbb">Hightlighted Functions</p>
             <ul>
               <li><strong>Intent messaging</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta orci at nisl bibendum, a fermentum nisl scelerisque.</li>
               <li><strong>Cloudinary:</strong> user file saving option.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta orci at nisl bibendum, adipiscing elit.</li>
