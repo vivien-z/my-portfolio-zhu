@@ -13,9 +13,7 @@
   font-family: $my-font-h;
   font-weight: 600;
   font-size: 50px;
-  color: white;
   padding: 6px 24px;
-  background: black;
   width: 480px;
   &:hover {
     width: 540px;
@@ -26,9 +24,7 @@
 .banner h4 {
   font-family: $my-font-h;
   font-weight: 600;
-  color: white;
   padding: 8px 24px;
-  background: black;
   width: 440px;
 }
 
@@ -49,17 +45,14 @@
   color: black;
 }
 
-.about {
+.content {
   margin: 90px auto 90px;
   width: 70%;
 }
 
 .skill {
-  margin: 90px auto 90px;
   .skill-type {
-    width: 70%;
     margin: 0 auto 16px;
-    padding: 0 35px;
   }
   .text-t-s {
     min-width: 160px;

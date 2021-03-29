@@ -1,0 +1,58 @@
+.card-project-list {
+  margin-top: 90px;
+}
+
+.card-pic {
+  // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
+  position: relative;
+  height: 220px;
+  width: 340px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 30px 0 24px;
+}
+
+.card-title {
+  position: absolute;
+  left: -22px;
+  top: -20px;
+  padding: 4px 48px;
+  font-family: $my-font;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-icon {
+  padding: 4px 12px;
+  &:hover {
+    background: $m-yellow;
+    i {
+      background: $m-yellow;
+      color: black;
+    }
+  }
+}
+
+.i-link {
+  padding: 4px 14px;
+  position: absolute;
+  right: 36px;
+  bottom: 12px;
+}
+.i-code {
+  position: absolute;
+  right: -12px;
+  bottom: 12px;
+}
+
+.card-desc {
+  width: 50%;
+  margin: auto 0;
+}
+
+
+.card-dp {
+  margin: 20px 0 8px 24px;
+  padding: 3px 18px;
+  font-size: 16px;
+}
