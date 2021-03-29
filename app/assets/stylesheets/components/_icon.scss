@@ -9,22 +9,34 @@
   margin-top: 30px;
   background: $m-black;
   width: 230px;
-  i {
-    color: white;
-  }
 }
 .fa-linkedin {
+  color: $m-green;
+  border: 4px solid transparent;
   &:hover {
-    color: $m-green;
+    color: $m-black;
+    border: 4px solid $m-green;
+    border-radius: 2px;
+    background: $m-green;
   }
 }
 .fa-github-square {
+  color: $m-yellow;
+  border: 4px solid transparent;
   &:hover {
-    color: $m-pink;
+    color: $m-black;
+    border: 4px solid $m-yellow;
+    border-radius: 2px;
+    background: $m-yellow;
   }
 }
 .fa-envelope {
+  color: $m-blue;
+  border: 4px solid transparent;
   &:hover {
-    color: $m-blue;
+    color: $m-black;
+    border: 4px solid $m-blue;
+    border-radius: 2px;
+    background: $m-blue;
   }
 }
