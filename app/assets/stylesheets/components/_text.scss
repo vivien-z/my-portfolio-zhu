@@ -1,4 +1,19 @@
-.title-block {
+.text-subtitle {
   font-weight: 700;
+  font-family: $my-font;
   text-align: center;
+}
+
+.text-t-s {
+  font-weight: bold;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+.text-t-line {
+  border-bottom: 2px solid white;
+}
+.text-containt {
+
 }
