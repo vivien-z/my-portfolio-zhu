@@ -32,12 +32,8 @@
   width: 440px;
 }
 
+// blocks style
 .block {
-  // max-height: 380px;
-  // border: 1px solid red;
-  p {
-    // text-align: center;
-  }
   h3 {
     margin-bottom: 24px;
   }
@@ -60,26 +56,36 @@
 
 .skill {
   margin: 90px auto 90px;
-  .skill-l {
-    width: 50%;
-  }
-  .skill-r {
-    width: 50%;
+  .skill-type {
+    width: 70%;
+    margin: 0 auto 16px;
     padding: 0 35px;
+  }
+  .text-t-s {
+    min-width: 160px;
+    margin: 0 auto 16px;
   }
 }
 
-// // Smallest device
-// @media (min-width: 100px) and (max-width: 575px) {
-//   .about {
-//     max-height: 500px;
-//   }
-// }
+.skill-list {
+  display: flex;
+  justify-content: center;
+  div {
+    width: 100%;
+  }
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .skill-list {
+    flex-direction: column;
+  }
+}
 
 // // Small devices (landscape phones, 576px and up)
 // @media (min-width: 576px) {
-//   .about {
-//     max-height: 440px;
+//   .skill-list {
+//     flex-direction: column;
 //   }
 // }
 
