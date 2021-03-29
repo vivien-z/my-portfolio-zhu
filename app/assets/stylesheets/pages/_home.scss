@@ -6,8 +6,8 @@
 }
 
 .b-black {
-  border: 1px solid black;
-  background: black;
+  border: 1px solid $m-black;
+  background: $m-black;
   color: white;
   .text-subtitle {
     color: $m-yellow;
@@ -23,7 +23,7 @@
 .b-white {
   border: 1px solid white;
   background: white;
-  color: black;
+  color: $m-black;
 }
 
 .content {
