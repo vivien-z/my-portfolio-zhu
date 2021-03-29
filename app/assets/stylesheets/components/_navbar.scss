@@ -24,7 +24,7 @@
   // transition: 0.25s ease;
   &:hover {
     // background: rgba(255, 255, 255, 0.3);
-    // border: 4px solid black;
+    // border: 4px solid $m-black;
     background: transparent;
     font-weight: bold;
   }
@@ -32,18 +32,18 @@
 
 // navbar options
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: $m-black;
   margin-right: 58px;
   transition: 0.25s ease;
   &:hover {
-    color: black;
-    border-bottom: 4px solid black;
+    color: $m-black;
+    border-bottom: 4px solid $m-black;
   }
 }
 
 .navbar-light .navbar-nav .active {
   font-weight: 700;
   .nav-link {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid $m-black;
   }
 }
