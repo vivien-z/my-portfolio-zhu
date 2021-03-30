@@ -1,6 +1,24 @@
 .card-project-list {
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 80px;
+  border: 1px solid $m-color;
+  p {
+    font-size: 16px;
+  }
+}
+
+.i-link {
+  padding: 4px 20px;
+  position: absolute;
+  right: 32px;
+  bottom: 8px;
+  border: 3px solid $m-color;
+}
+.i-code {
+  position: absolute;
+  right: -12px;
+  bottom: 8px;
+  border: 3px solid $m-color;
 }
 
 .card-pic {
@@ -10,49 +28,35 @@
   width: 340px;
   background-size: cover;
   background-position: center;
-  margin: 0 30px 0 24px;
+  margin: 22px 30px 0 24px;
 }
 
 .card-title {
   position: absolute;
-  left: -22px;
-  top: -20px;
-  padding: 12px 48px;
+  left: -36px;
+  top: -36px;
+  padding: 16px 56px;
   font-family: $my-font;
   font-weight: bold;
   font-size: 24px;
 }
 
 .card-desc {
-  width: 50%;
-  margin: auto 0;
-  position: relative;
+  // width: 50%;
+  // margin: auto 0;
+  // position: relative;
 }
 
 .card-icon {
   padding: 4px 12px;
   &:hover {
-    background: $m-color;
+    background: white;
     i {
-      background: $m-color;
-      color: $m-black;
+      background: white;
+      color: $m-color;
     }
   }
 }
-
-.i-link {
-  padding: 4px 14px;
-  position: absolute;
-  right: 36px;
-  top: -40px;
-}
-.i-code {
-  position: absolute;
-  right: -12px;
-  top: -40px;
-}
-
-
 
 .card-dp {
   margin: 20px 0 8px 24px;
