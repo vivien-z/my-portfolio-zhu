@@ -1,34 +1,28 @@
 .card-project-list {
-  margin-top: 70px;
-  margin-bottom: 80px;
-  border: 1px solid $m-color;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 28px;
+  border: 1px solid $m-color-d;
   p {
     font-size: 16px;
   }
 }
 
-.i-link {
-  padding: 4px 20px;
-  position: absolute;
-  right: 32px;
-  bottom: 8px;
-  border: 3px solid $m-color;
-}
-.i-code {
-  position: absolute;
-  right: -12px;
-  bottom: 8px;
-  border: 3px solid $m-color;
+// card left part
+.card-left {
+  // border: 1px solid yellow;
+  width: 50%;
+  padding-left: 16px;
 }
 
 .card-pic {
   // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
   position: relative;
-  height: 220px;
-  width: 340px;
+  height: 210px;
+  width: 330px;
   background-size: cover;
   background-position: center;
-  margin: 22px 30px 0 24px;
+  margin: 22px 20px 0 44px;
 }
 
 .card-title {
@@ -39,29 +33,53 @@
   font-family: $my-font;
   font-weight: bold;
   font-size: 24px;
+  background: $m-color-d;
+}
+
+.card-icon {
+  padding: 6px 14px;
+  border: 3px solid $m-color;
+  &:hover {
+    background: $m-color-d;
+    border: 3px solid $m-color-d;
+    i {
+      background: $m-color-d;
+      color: white;
+    }
+  }
+}
+
+.i-link {
+  padding: 6px 16px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.i-code {
+  position: absolute;
+  right: -28px;
+  bottom: 10px;
 }
 
 .card-desc {
   // width: 50%;
   // margin: auto 0;
   // position: relative;
+  // border: 1px solid red;
+  padding: 16px 26px 0 22px;
 }
 
-.card-icon {
-  padding: 4px 12px;
-  &:hover {
-    background: white;
-    i {
-      background: white;
-      color: $m-color;
-    }
-  }
+// card right part
+.card-right {
+  // border: 1px solid blue;
+  width: 50%;
+  padding: 16px 24px 0 0;
 }
-
-.card-dp {
-  margin: 20px 0 8px 24px;
+.card-s-title {
+  margin: 8px 0 18px 24px;
   padding: 3px 18px;
   font-size: 16px;
+  text-align: center;
 }
 
 // .card-bottom {
