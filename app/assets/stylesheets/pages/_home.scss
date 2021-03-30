@@ -31,17 +31,30 @@
   width: 70%;
 }
 
-// .skill {
-//   .skill-type {
-//     margin: 0 auto 16px;
-//   }
-// }
+.about a {
+  color: $m-green;
+  background: $m-black;
+  transition: 0.25s ease-in-out;
+  padding: 3px 6px;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
 
 .skill-list {
   display: flex;
   justify-content: center;
+  // border-bottom: 2px solid $m-color;
   div {
     width: 100%;
+  }
+  ul {
+    padding-left: 45%;
+  }
+  .text-t-line {
+    border-bottom: 2px solid $m-color;
+    text-align: center;
   }
 }
 
