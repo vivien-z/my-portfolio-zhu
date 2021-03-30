@@ -12,6 +12,9 @@
 .dropdown-menu {
   background: transparent;
   border: none;
+  .dropdown-divider {
+    border-color: $m-black;
+  }
 }
 
 .dropdown-item {
