@@ -43,12 +43,13 @@
 }
 
 .about a {
-  color: $m-green;
-  background: $m-black;
+  color: $m-color;
+  // padding: 3px 8px;
+  // background: $m-black;
   transition: 0.25s ease-in-out;
-  padding: 3px 8px;
   &:hover {
-    color: white;
+    color: $m-color;
+    border-bottom: 4px solid $m-color-d;
     text-decoration: none;
   }
 }
