@@ -1,7 +1,14 @@
 // blocks style
 .block {
   h3 {
-    margin-bottom: 65px;
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
   }
 }
 
@@ -10,7 +17,8 @@
   background: $m-black;
   color: white;
   .text-subtitle {
-    color: $m-yellow;
+    color: $m-color;
+    border-bottom: 2px solid white;
   }
   .text-t-s {
     margin: 0 auto 22px;
@@ -24,6 +32,9 @@
   border: 1px solid white;
   background: white;
   color: $m-black;
+  .text-subtitle {
+    border-bottom: 2px solid $m-black;
+  }
 }
 
 .content {
@@ -31,17 +42,31 @@
   width: 70%;
 }
 
-// .skill {
-//   .skill-type {
-//     margin: 0 auto 16px;
-//   }
-// }
+.about a {
+  color: $m-color;
+  // padding: 3px 8px;
+  // background: $m-black;
+  transition: 0.25s ease-in-out;
+  &:hover {
+    color: $m-color;
+    border-bottom: 4px solid $m-color-d;
+    text-decoration: none;
+  }
+}
 
 .skill-list {
   display: flex;
   justify-content: center;
+  // border-bottom: 2px solid $m-color;
   div {
     width: 100%;
+  }
+  ul {
+    padding-left: 45%;
+  }
+  .text-t-line {
+    border-bottom: 2px solid $m-color;
+    text-align: center;
   }
 }
 

@@ -1,6 +1,7 @@
 .text-subtitle {
   font-weight: 700;
   font-family: $my-font;
+  color: $m-color;
   text-align: center;
 }
 
@@ -9,17 +10,27 @@
   color: white;
 }
 
+.text-bfwp {
+  background: $m-color;
+  color: white;
+}
+
+.text-purple {
+  color: $m-color;
+}
+
+.text-purple-d {
+  color: $m-color-d;
+}
+
 .text-t-s {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   text-align: center;
 }
 
 .text-t-line {
-  border-bottom: 2px solid $m-yellow;
   font-weight: bold;
-}
-.text-containt {
-
+  color: $m-color;
 }
