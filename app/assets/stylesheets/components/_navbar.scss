@@ -8,13 +8,8 @@
   flex-grow: 0;
 }
 
-// .navbar-lgn .navbar-brand img {
-//   width: 40px;
-// }
-
 // dropdown
 .dropdown-menu {
-  // background: rgba(255, 255, 255, 0.15);
   background: transparent;
   border: none;
 }
@@ -22,6 +17,8 @@
 .dropdown-item {
   // border: 4px solid transparent;
   // transition: 0.25s ease;
+  font-size: 18px;
+  font-family: $my-font-h;
   &:hover {
     // background: rgba(255, 255, 255, 0.3);
     // border: 4px solid $m-black;
@@ -33,6 +30,8 @@
 // navbar options
 .navbar-light .navbar-nav .nav-link {
   color: $m-black;
+  font-size: 18px;
+  font-family: $my-font-h;
   margin-right: 58px;
   transition: 0.25s ease;
   &:hover {
@@ -45,5 +44,6 @@
   font-weight: 700;
   .nav-link {
     border-bottom: 4px solid $m-black;
+    color: $m-black;
   }
 }
