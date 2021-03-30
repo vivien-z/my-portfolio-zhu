@@ -1,5 +1,6 @@
 .card-project-list {
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .card-pic {
@@ -16,10 +17,16 @@
   position: absolute;
   left: -22px;
   top: -20px;
-  padding: 4px 48px;
+  padding: 12px 48px;
   font-family: $my-font;
   font-weight: bold;
   font-size: 24px;
+}
+
+.card-desc {
+  width: 50%;
+  margin: auto 0;
+  position: relative;
 }
 
 .card-icon {
@@ -37,18 +44,14 @@
   padding: 4px 14px;
   position: absolute;
   right: 36px;
-  bottom: 12px;
+  top: -40px;
 }
 .i-code {
   position: absolute;
   right: -12px;
-  bottom: 12px;
+  top: -40px;
 }
 
-.card-desc {
-  width: 50%;
-  margin: auto 0;
-}
 
 
 .card-dp {
@@ -56,3 +59,8 @@
   padding: 3px 18px;
   font-size: 16px;
 }
+
+// .card-bottom {
+//   padding-bottom: 12px;
+//   border-bottom: 6px solid $m-color;
+// }
