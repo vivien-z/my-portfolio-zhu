@@ -1,107 +1,109 @@
 <div class="block b-white">
 
-  <div class="container content">
-    <h3 id="projects" class="text-subtitle">PROJECTS</h3>
-
-    <div class="card-project-list d-flex justify-content-around">
-
-      <div class="card-left flex-column">
-
-        <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "bloom.jpg" %>')">
-          <p class="card-title text-bfwp">Bloom</p>
-          <%= link_to "https://bloom-rom1023.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
-            <i class="fas fa-link"></i>
-          <% end %>00
-          <%= link_to "https://github.com/Rom1023/bloom", target: "_blank", class: "card-icon i-code text-bfwp" do %>
-            <i class="fas fa-code"></i>
-          <% end %>
-        </div>
-
-        <div class="card-desc">
-          <p class="">A web application on which doctors can post rare patient cases and look for help. Other doctors, from different regions, can communicate and contribute to find the solution together.</p>
-        </div>
-
-      </div>
-
-      <div class="card-right">
-
-        <div>
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
-          <p class="text-purple-d ml-4">Ruby on Rails | Device | Cloudinary | PG search | Action Cable | Redis</p>
-          <ul>
-            <li class="mb-2"><strong>Action Cable</strong> enables new messages be broadcasted to all subcribed users. The message will appear immedately on users' ends, without refreshing the page.</li>
-            <li class="mb-2"><strong>PG search</strong> provides search function based on PostgreSQL's full text search. It enables keywords search through customizable scopes.</li>
-          </ul>
-        </div>
-
-      </div>
-
+  <div class="content project">
+    <div>
+      <h3 id="projects" class="text-subtitle">PROJECTS</h3>
     </div>
+    <div class="card-content">
+      <div class="card-project-list d-flex justify-content-around">
 
-    <div class="card-project-list d-flex justify-content-around">
+        <div class="card-part card-left flex-column">
 
-      <div class="card-left flex-column">
-        <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.001),rgba(0,0,0,0.001)), url('<%= image_path "the-p-party.png" %>')">
-          <p class="card-title text-bfwp">The P Party</p>
-          <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
-            <i class="fas fa-link"></i>
-          <% end %>
-          <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code text-bfwp" do %>
-            <i class="fas fa-code"></i>
-          <% end %>
+          <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "bloom.jpg" %>')">
+            <p class="card-title text-bfwp">Bloom</p>
+            <%= link_to "https://bloom-rom1023.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+              <i class="fas fa-link"></i>
+            <% end %>00
+            <%= link_to "https://github.com/Rom1023/bloom", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+              <i class="fas fa-code"></i>
+            <% end %>
+          </div>
+
+          <div class="card-desc">
+            <p class="">A web application on which doctors can post rare patient cases and look for help. Other doctors, from different regions, can communicate and contribute to find the solution together.</p>
+          </div>
+
         </div>
-        <div class="card-desc">
-          <p class="">A clone website of Airbnb. Users can book party themes, as well as, list their own party equipment for rent on the website.</p>
+
+        <div class="card-part card-right">
+
+          <div>
+            <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+            <p class="text-purple-d ml-4">Ruby on Rails | Device | Cloudinary | PG search | Action Cable | Redis</p>
+            <ul>
+              <li class="mb-2"><strong>Action Cable</strong> enables new messages be broadcasted to all subcribed users. The message will appear immedately on users' ends, without refreshing the page.</li>
+              <li class="mb-2"><strong>PG search</strong> provides search function based on PostgreSQL's full text search. It enables keywords search through customizable scopes.</li>
+            </ul>
+          </div>
+
         </div>
+
       </div>
 
-      <div class="card-right">
-        <div>
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
-          <p class="text-purple-d ml-4">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
-          <ul>
-            <li class="mb-2"><strong>Pundit</strong>
-              is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.
-            </li>
-            <li class="mb-2"><strong><a href="http://nominatim.org/" target="_blank" class="text-link">Nominatim</a></strong>
-              is a geocoding provider, which uses <a href="https://www.openstreetmap.org/about/" target="_blank" class="text-link">OpenStreetMap</a>’s data. Renters' addresses will be convert to geocode and pinned on the map.
-            </li>
-          </ul>
+      <div class="card-project-list d-flex justify-content-around">
+
+        <div class="card-part card-left flex-column">
+          <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.001),rgba(0,0,0,0.001)), url('<%= image_path "the-p-party.png" %>')">
+            <p class="card-title text-bfwp">The P Party</p>
+            <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+              <i class="fas fa-link"></i>
+            <% end %>
+            <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+              <i class="fas fa-code"></i>
+            <% end %>
+          </div>
+          <div class="card-desc">
+            <p class="">A clone website of Airbnb. Users can book party themes, as well as, list their own party equipment for rent on the website.</p>
+          </div>
         </div>
+
+        <div class="card-part card-right">
+          <div>
+            <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+            <p class="text-purple-d ml-4">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
+            <ul>
+              <li class="mb-2"><strong>Pundit</strong>
+                is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.
+              </li>
+              <li class="mb-2"><strong>Nominatim</strong>
+                is a geocoding provider, which uses <a href="https://www.openstreetmap.org/about/" target="_blank" class="text-link">OpenStreetMap</a>’s data. Renters' addresses will be convert to geocode and pinned on the map.
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
+      <div class="card-project-list d-flex justify-content-around">
+
+        <div class="card-part card-left flex-column">
+          <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "cocktail-mix.png" %>')">
+            <p class="card-title text-bfwp">Cocktail Mix</p>
+            <%= link_to "https://cocktail-party-v.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+              <i class="fas fa-link"></i>
+            <% end %>
+            <%= link_to "https://github.com/vivien-z/rails-mister-cocktail", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+              <i class="fas fa-code"></i>
+            <% end %>
+          </div>
+          <div class="card-desc">
+            <p class="">A web application. Users can create an account. User can build, edit, delete their own cocktail mix recipe online. Picture can be uploaded for the cocktail recipe built.</p>
+          </div>
+        </div>
+
+        <div class="card-part card-right">
+          <div>
+            <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+            <p class="text-purple-d ml-4">Ruby on Rails | Devise | Active Storage | Cloudinary </p>
+            <ul>
+              <li class="mb-2"><strong>Devise</strong> is an highly customizable authentication gem for Rails. Functions available: sign-up email confirmation, password recoverable, customizable email validation, failed sign-in attempts trigger account lock.</li>
+              <li class="mb-2"><strong>Cloudinary</strong> is a cloud storage service. It interacts with rails active storage and enables users to upload images/files to web app.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
-
-    <div class="card-project-list d-flex justify-content-around">
-
-      <div class="card-left flex-column">
-        <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "cocktail-mix.png" %>')">
-          <p class="card-title text-bfwp">Cocktail Mix</p>
-          <%= link_to "https://cocktail-party-v.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
-            <i class="fas fa-link"></i>
-          <% end %>
-          <%= link_to "https://github.com/vivien-z/rails-mister-cocktail", target: "_blank", class: "card-icon i-code text-bfwp" do %>
-            <i class="fas fa-code"></i>
-          <% end %>
-        </div>
-        <div class="card-desc">
-          <p class="">A web application. Users can create an account. User can build, edit, delete their own cocktail mix recipe online. Picture can be uploaded for the cocktail recipe built.</p>
-        </div>
-      </div>
-
-      <div class="card-right">
-        <div>
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
-          <p class="text-purple-d ml-4">Ruby on Rails | Devise | Active Storage | Cloudinary </p>
-          <ul>
-            <li class="mb-2"><strong>Devise</strong> is an highly customizable authentication gem for Rails. Functions available: sign-up email confirmation, password recoverable, customizable email validation, failed sign-in attempts trigger account lock.</li>
-            <li class="mb-2"><strong>Cloudinary</strong> is a cloud storage service. It interacts with rails active storage and enables users to upload images/files to web app.</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
   </div>
 
 </div>

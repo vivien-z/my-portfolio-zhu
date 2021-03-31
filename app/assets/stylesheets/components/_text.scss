@@ -40,13 +40,13 @@
   transition: 0.15s ease-in-out;
   &:hover {
     color: $m-color;
-    border-bottom: 2px solid $m-color-d;
+    border-bottom: 4px solid $m-color-d;
     text-decoration: none;
   }
 }
 
-.text-link-b {
-  color: $m-color;
+.text-link-d {
+  color: $m-color-d;
   transition: 0.15s ease-in-out;
   &:hover {
     color: $m-color;

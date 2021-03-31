@@ -1,8 +1,13 @@
+.card-content {
+  margin: 0 6px;
+}
+
 .card-project-list {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px auto;
   padding: 28px;
   border: 1px solid $m-color-d;
+  max-width: 854px;
+  // min-width: 474px;
   p {
     font-size: 16px;
   }
@@ -11,7 +16,9 @@
 // card left part
 .card-left {
   // border: 1px solid yellow;
+  // grid-area: left;
   width: 50%;
+  // min-width: 382px;
   padding-left: 16px;
 }
 
@@ -69,7 +76,9 @@
 // card right part
 .card-right {
   // border: 1px solid blue;
+  // grid-area: right;
   width: 50%;
+  // min-width: 374px;
   padding: 16px 24px 0 0;
   ul {
     padding-left: 26px;
@@ -84,3 +93,46 @@
   font-size: 16px;
   text-align: center;
 }
+
+// // Smallest device
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .card-project-list {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 1fr 1fr;
+//     grid-template-areas:
+//       "left"
+//       "right";
+//   }
+// }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .card-project-list {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 1fr 1fr;
+//     grid-template-areas:
+//       "left"
+//       "right";
+//   }
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .card-project-list {
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .card-project-list {
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .card-project-list {
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
