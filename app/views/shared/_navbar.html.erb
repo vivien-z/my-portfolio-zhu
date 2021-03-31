@@ -3,8 +3,11 @@
   <div class="nav-item dropdown collapse navbar-collapse">
     <i class="fas fa-bars dropdown" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-      <%= link_to "Action", "#", class: "dropdown-item" %>
-      <%= link_to "Another action", "#", class: "dropdown-item" %>
+      <%= link_to "My GitHub", "https://github.com/vivien-z/", class: "dropdown-item", target: "_blank" %>
+      <%= link_to "My LinkedIn", "https://www.linkedin.com/in/yuanyuanzhu/", class: "dropdown-item", target: "_blank" %>
+      <%= link_to "My Resume", "/shared/Resume-YuanYuanZhu-Vivien.pdf", class: "dropdown-item", target: "_blank" %>
+      <div class="dropdown-divider"></div>
+      <%= link_to "Email Me", "mailto:yuanyuanzhu000@gmail.com", class: "dropdown-item", target: "_blank" %>
     </div>
   </div>
 
@@ -16,13 +19,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <%= link_to "About", "#", class: "nav-link" %>
+        <%= link_to "About", "#about", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to "Projects", "#", class: "nav-link" %>
+        <%= link_to "Skills", "#skills", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to "Resume", "#", class: "nav-link" %>
+        <%= link_to "Projects", "#projects", class: "nav-link" %>
       </li>
     </ul>
   </div>

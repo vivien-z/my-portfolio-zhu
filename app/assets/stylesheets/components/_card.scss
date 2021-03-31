@@ -19,7 +19,7 @@
   // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
   position: relative;
   height: 210px;
-  width: 330px;
+  width: 320px;
   background-size: cover;
   background-position: center;
   margin: 22px 20px 0 44px;
@@ -52,12 +52,12 @@
 .i-link {
   padding: 6px 16px;
   position: absolute;
-  right: 20px;
+  right: 28px;
   bottom: 10px;
 }
 .i-code {
   position: absolute;
-  right: -28px;
+  right: -20px;
   bottom: 10px;
 }
 
