@@ -1,7 +1,10 @@
 .navbar-lgn {
   justify-content: space-between;
   background: $m-color;
-  min-height: 72px;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-lgn .navbar-collapse {
@@ -13,7 +16,7 @@
   background: $m-black;
   border: none;
   .dropdown-divider {
-    // border-color: $m-black;
+    // border-color: $m-color;
   }
 }
 // .dropdown-menu {
@@ -32,6 +35,7 @@
     background: transparent;
     font-weight: bold;
     color: white;
+    // text-shadow: 0 0 10px $m-green;
   }
 }
 
