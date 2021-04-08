@@ -50,6 +50,7 @@
   font-family: $my-font-h;
   margin-right: 58px;
   transition: 0.25s ease;
+  border-bottom: 4px solid transparent;
   &:hover {
     color: $m-black;
     border-bottom: 4px solid $m-black;
