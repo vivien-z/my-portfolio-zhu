@@ -1,27 +1,30 @@
-// blocks style
+/* ================
+block style
+=================*/
 .block {
   h3 {
-    margin-bottom: 30px;
-    padding-bottom: 35px;
+    margin: 0 0 1em;
+    padding: 0 0 1em;
   }
   p {
-    font-size: 18px;
+    font-size: 1.12rem;
   }
   li {
-    font-size: 18px;
+    font-size: 1.12rem;
   }
 }
+
 
 .b-black {
   border: 1px solid $m-black;
   background: $m-black;
   color: white;
-  .text-subtitle {
+  .block-title {
     color: $m-color;
     border-bottom: 2px solid white;
   }
   .text-t-s {
-    margin: 0 auto 22px;
+    margin: 0 auto 1.25em;
   }
   .text-t-line {
     padding-bottom: 6px;
@@ -32,16 +35,35 @@
   border: 1px solid white;
   background: white;
   color: $m-black;
-  .text-subtitle {
+  .block-title {
     border-bottom: 2px solid $m-black;
   }
 }
 
-.content {
-  margin: 120px auto 130px;
+.container {
+  padding: 0;
+  // border: 3px solid blue;
+}
+.container-main {
+  margin: 6em auto;
   width: 70%;
+  border: 3px solid red;
 }
 
+@media (min-width: 100px) and (max-width: 575px) {
+  .container-main {
+    width: 90%;
+  }
+}
+
+.block-title {
+  font-weight: 700;
+  font-family: $my-font;
+  color: $m-color;
+  text-align: center;
+}
+
+/*----SKILL block----*/
 .skill-list {
   display: flex;
   justify-content: center;
