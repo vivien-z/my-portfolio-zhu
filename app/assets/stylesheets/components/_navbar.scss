@@ -1,27 +1,26 @@
+/* ================
+  navbar style
+=================*/
+
 #navbar {
   z-index: 9999;
-}
-
-.navbar-lgn {
   justify-content: space-between;
   background: $m-color;
-  min-height: 72px;
+  min-height: 4.5em;
+  padding: 0.5em 2.5em;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar-lgn .navbar-collapse {
+#navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-// dropdown
+/*----dropdown----*/
 .dropdown-menu {
   background: $m-black;
   border: none;
-  .dropdown-divider {
-    // border-color: $m-color;
-  }
 }
 // .dropdown-menu {
 //   background: transparent;
@@ -32,23 +31,25 @@
 // }
 
 .dropdown-item {
-  font-size: 18px;
+  font-size: 1.12rem;
   font-family: $my-font-h;
   color: white;
   &:hover {
     background: transparent;
     font-weight: bold;
     color: white;
-    // text-shadow: 0 0 10px $m-green;
   }
 }
 
-// navbar options
-.navbar-light .navbar-nav .nav-link {
+/*----navbar options----*/
+.nav-link {
   color: $m-black;
-  font-size: 18px;
+  font-size: 1.12rem;
+  font-weight: 600;
   font-family: $my-font-h;
-  margin-right: 58px;
+  margin-left: 3.6em;
+  padding: 0.44em 0;
+
   transition: 0.25s ease;
   border-bottom: 4px solid transparent;
   &:hover {
@@ -57,10 +58,24 @@
   }
 }
 
-.navbar-light .navbar-nav .active {
-  font-weight: 700;
+.active .nav-link{
+  border-bottom: 4px solid $m-black;
+  color: $m-black;
+}
+
+// .navbar-light .navbar-nav .active {
+//   font-weight: 700;
+//   .nav-link {
+//     border-bottom: 4px solid $m-black;
+//     color: $m-black;
+//   }
+// }
+
+@media (min-width: 100px) and (max-width: 575px) {
   .nav-link {
-    border-bottom: 4px solid $m-black;
-    color: $m-black;
+    margin: 0.37em 0.5em;
+  }
+  #navbar {
+    padding: 0.5em;
   }
 }

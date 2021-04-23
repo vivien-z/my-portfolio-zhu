@@ -1,10 +1,9 @@
-// .text-subtitle {
-//   font-weight: 700;
-//   font-family: $my-font;
-//   color: $m-color;
-//   text-align: center;
-// }
+/* ================
+  text style
+=================*/
 
+// wfbb: white font black background
+// bfwp: black font white background
 .text-wfbb {
   background: $m-black;
   color: white;
@@ -22,13 +21,6 @@
 .text-purple-d {
   color: $m-color-d;
 }
-
-// .text-t-s {
-//   font-weight: bold;
-//   font-size: 20px;
-//   color: white;
-//   text-align: center;
-// }
 
 .text-t-line {
   font-weight: bold;
@@ -54,3 +46,18 @@
     text-decoration: none;
   }
 }
+
+
+// .text-subtitle {
+//   font-weight: 700;
+//   font-family: $my-font;
+//   color: $m-color;
+//   text-align: center;
+// }
+
+// .text-t-s {
+//   font-weight: bold;
+//   font-size: 20px;
+//   color: white;
+//   text-align: center;
+// }

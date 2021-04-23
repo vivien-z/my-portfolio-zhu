@@ -1,11 +1,18 @@
 /* ================
   icon style
 =================*/
-.fa-bars {
-  margin-left: 0.45em;
-  font-size: 1.8rem;
+
+/*----navbar icon----*/
+.navbar-toggler {
+  border: none;
 }
 
+.fa-bars {
+  // margin-left: 0.45em;
+  font-size: 32px;
+}
+
+/*----contact icon----*/
 .icon-social {
   background: $m-black;
   width: 11em;
@@ -64,7 +71,6 @@
 
 @media (min-width: 100px) and (max-width: 575px) {
   .icon-social {
-    // font-size: 1.25rem;
     margin: 1em auto;
     justify-content: space-between;
     i {
