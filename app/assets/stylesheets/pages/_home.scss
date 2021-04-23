@@ -19,10 +19,10 @@ block style
     border-bottom: 2px solid white;
   }
   .block-subtitle {
-    margin: 0 auto 1.25em;
+    margin: 0 auto 1em;
   }
   .text-t-line {
-    padding-bottom: 6px;
+    padding-bottom: 0.5em;
   }
 }
 
@@ -35,14 +35,11 @@ block style
   }
 }
 
-.container {
-  padding: 0;
-  // border: 3px solid blue;
-}
+/*----inner container setting----*/
 .container-main {
   margin: 6em auto;
   width: 70%;
-  border: 3px solid red;
+  // border: 3px solid red;
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
@@ -51,6 +48,7 @@ block style
   }
 }
 
+/*----Block title----*/
 .block-title {
   font-weight: 700;
   font-family: $my-font;
@@ -62,20 +60,21 @@ block style
 
 .block-subtitle {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: white;
   text-align: center;
 }
+
 /*----SKILL block----*/
 .skill-list {
   display: flex;
-  justify-content: center;
-  // border-bottom: 2px solid $m-color;
+  justify-content: space-evenly;
   div {
-    width: 100%;
+    width: 42%;
+    // border: 3px solid blue;
   }
   ul {
-    padding-left: 45%;
+    padding-left: 42%;
   }
   .text-t-line {
     border-bottom: 2px solid $m-color;
@@ -87,6 +86,10 @@ block style
 @media (min-width: 100px) and (max-width: 575px) {
   .skill-list {
     flex-direction: column;
+    align-items: center;
+    div {
+      width: 86%;
+    }
   }
 }
 
