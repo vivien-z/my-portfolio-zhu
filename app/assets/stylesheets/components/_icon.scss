@@ -1,11 +1,18 @@
-.fa-bars {
-  margin-left: 0.45em;
-  font-size: 1.8rem;
-  // font-weight: bold;
-  // color: white;
-  // border: none;
+/* ================
+  icon style
+=================*/
+
+/*----navbar icon----*/
+.navbar-toggler {
+  border: none;
 }
 
+.fa-bars {
+  // margin-left: 0.45em;
+  font-size: 32px;
+}
+
+/*----contact icon----*/
 .icon-social {
   background: $m-black;
   width: 11em;

@@ -23,3 +23,9 @@ body {
   padding: 0;
   // border: 3px solid blue;
 }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  html {
+    font-size: 12px;
+  }
+}
