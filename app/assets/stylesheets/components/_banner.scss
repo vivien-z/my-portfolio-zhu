@@ -1,28 +1,26 @@
+/* ================
+  banner style
+=================*/
 .banner {
-  height: 600px;
+  height: 36em; // 560px
   background: $m-color;
+  .header{
+    padding-top: 17.5em; //280px
+  }
 }
 
-.header{
-  padding-top: 280px;
-}
-
-// font style
+/*----banner font----*/
 .banner h1 {
   font-family: $my-font-h;
   font-weight: 600;
-  font-size: 50px;
-  padding: 6px 24px;
-  width: 480px;
-  &:hover {
-    width: 540px;
-    padding-left: 50px;
-  }
+  font-size: 3rem; //50px
+  padding: 0.15em 1em 0.15em 0.5em;
+  width: 10em; // 480px
 }
 
 .banner h4 {
   font-family: $my-font-h;
   font-weight: 600;
-  padding: 8px 24px;
-  width: 440px;
+  padding: 0.3em 1em 0.3em 1em;
+  width: 18em; //432px
 }

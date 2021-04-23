@@ -1,5 +1,5 @@
 /* ================
-block style
+  block style
 =================*/
 .block {
   p {
@@ -83,7 +83,7 @@ block style
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 576px) {
   .skill-list {
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@ block style
   }
 }
 
-// project block
+/*----PROJECT block----*/
  .content.project{
   margin: 120px auto 130px;
  }
