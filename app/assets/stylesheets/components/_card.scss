@@ -1,3 +1,7 @@
+/* ================
+  card style
+=================*/
+
 .card-content {
   margin: 0 6px;
   // min-width: 548px;
@@ -20,7 +24,7 @@
 
 // card left part
 .card-left {
-  // border: 1px solid yellow;
+  border: 1px solid red;
   // grid-area: left;
   // min-width: 382px;
   width: 50%;
@@ -81,7 +85,7 @@
 
 // card right part
 .card-right {
-  // border: 1px solid blue;
+  border: 1px solid blue;
   // grid-area: right;
   width: 50%;
   // min-width: 374px;
@@ -100,6 +104,14 @@
   text-align: center;
 }
 
+@media (min-width: 100px) and (max-width: 575px) {
+  .card-project-list {
+    flex-direction: column;
+    .card-part {
+      width: 100%;
+    }
+  }
+}
 // // Smallest device
 // @media (min-width: 100px) and (max-width: 575px) {
 //   .card-project-list {
