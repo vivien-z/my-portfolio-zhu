@@ -2,7 +2,7 @@
   banner style
 =================*/
 .banner {
-  height: 36em; // 560px
+  height: 36rem; // 560px
   background: $m-color;
   .header{
     padding-top: 17.5em; //280px
@@ -14,13 +14,26 @@
   font-family: $my-font-h;
   font-weight: 600;
   font-size: 3rem; //50px
-  padding: 0.15em 1em 0.15em 0.5em;
+  padding: 0.15em 0.5em;
   width: 10em; // 480px
 }
 
 .banner h4 {
   font-family: $my-font-h;
   font-weight: 600;
-  padding: 0.3em 1em 0.3em 1em;
+  padding: 0.3em 1em;
   width: 18em; //432px
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner h1 {
+    font-size: 2rem;
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+  .banner h4 {
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    text-align: center;
+  }
 }
