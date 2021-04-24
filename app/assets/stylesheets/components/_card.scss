@@ -2,63 +2,51 @@
   card style
 =================*/
 
-/*----whole card----*/
 .card-project-list {
+  border: 1px solid $m-color-d;
   max-width: 854px;
   margin: 2.5em auto;
   padding: 2.4em 0;
-  border: 1px solid $m-color-d;
   display: flex;
   justify-content: space-evenly;
-  // min-width: 474px;
   p {
     font-size: 1em;
   }
 }
 
 .card-part {
-
-}
-
-// .width-50 {
-//   width: 50%;
-// }
-
-/*----card left img----*/
-.card-left {
-  // border: 1px solid red;
-  // grid-area: left;
-  // min-width: 382px;
   width: 40%;
-  // padding-left: 1em;
+  ul {
+    padding-left: 0; //1.625em
+    margin-bottom: 0;
+  }
+  li {
+    list-style-type: none;
+  }
 }
 
 .card-pic {
-  // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
   position: relative;
   height: 210px;
   width: 100%;
-  // max-width: 326px;
-  // min-width: 175px;
   background-size: cover;
   background-position: center;
-  // margin-right: 0;
-  // margin: 16px 22px 0 18px;
 }
 
 .card-title {
   position: absolute;
-  left: -36px;
-  top: -30px;
-  padding: 16px 56px;
+  left: -2.2em;
+  top: -1.25em;
+  padding: 0.8em 2.8em;
   font-family: $my-font;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
   background: $m-color-d;
 }
 
+/*----card button----*/
 .card-icon {
-  padding: 6px 14px;
+  padding: 0.375em 0.875em;
   border: 3px solid $m-color;
   &:hover {
     background: $m-color-d;
@@ -71,211 +59,65 @@
 }
 
 .i-link {
-  padding: 6px 16px;
+  padding: 0.375em 1em;
   position: absolute;
-  right: 28px;
-  bottom: 10px;
+  right: 1.75em;
+  bottom: 0.6em;
 }
 .i-code {
   position: absolute;
-  right: -20px;
-  bottom: 10px;
+  right: -1.25em;
+  bottom: 0.6em;
 }
-
+/*-------------------*/
 .card-desc p {
-  // border: 1px solid red;
-  // padding: 16px 24px 0 16px;
-
-  margin: 1em 0 0;
-
+  margin: 1em 0;
 }
 
-// card right part
-.card-right {
-  // border: 1px solid blue;
-  // grid-area: right;
-  width: 40%;
-  // min-width: 374px;
-  // padding: 1em 1.5em 0 0;
-  ul {
-    padding-left: 0; //1.625em
-    margin-bottom: 0;
-  }
-  li {
-    list-style-type: none;
-  }
-}
 .card-s-title {
-  margin: 0 0 24px;
-  padding: 3px 18px;
-  font-size: 16px;
+  margin-bottom: 1.25em;
+  font-size: 1rem;
   text-align: center;
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
   .card-project-list {
     flex-direction: column;
-    .card-part {
-      width: 100%;
-    }
+    padding: 1em;
+  }
+  .card-part {
+    width: 100%;
+  }
+  .card-title {
+    left: -1.5em;
+    top: -1.5em;
+  }
+  .i-code {
+    right: -1.5em;
   }
 }
+
 // // Smallest device
 // @media (min-width: 100px) and (max-width: 575px) {
-//   .card-project-list {
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 1fr 1fr;
-//     grid-template-areas:
-//       "left"
-//       "right";
-//   }
+
 // }
 
 // // Small devices (landscape phones, 576px and up)
 // @media (min-width: 576px) {
-//   .card-project-list {
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 1fr 1fr;
-//     grid-template-areas:
-//       "left"
-//       "right";
-//   }
+
 // }
 
 // // Medium devices (tablets, 768px and up)
 // @media (min-width: 768px) {
-//   .card-project-list {
-//     grid-template-columns: 1fr 1fr;
-//   }
+
 // }
 
 // // Large devices (desktops, 992px and up)
 // @media (min-width: 992px) {
-//   .card-project-list {
-//     grid-template-columns: 1fr 1fr;
-//   }
+
 // }
 
 // // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
-//   .card-project-list {
-//     grid-template-columns: 1fr 1fr;
-//   }
-// }
-// /* ================
-//   card style
-// =================*/
 
-// .card-content {
-//   // margin: 0 6px;
-//   // min-width: 548px;
-// }
-
-
-
-// .card-project-list {
-//   max-width: 854px;
-//   margin: 2.5em auto;
-//   padding: 1.75em;
-//   border: 1px solid $m-color-d;
-//   // min-width: 474px;
-//   p {
-//     font-size: 1em;
-//   }
-// }
-
-// // .card-part
-// // .width-50 {
-// //   width: 50%;
-// // }
-
-// // card left part
-// .card-left {
-//   border: 1px solid red;
-//   // grid-area: left;
-//   // min-width: 382px;
-//   width: 50%;
-//   padding-left: 16px;
-// }
-
-// .card-pic {
-//   // background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= image_path "bloom.jpg", class: "pic" %>');
-//   position: relative;
-//   height: 210px;
-//   max-width: 326px;
-//   min-width: 175px;
-//   background-size: cover;
-//   background-position: center;
-//   margin: 16px 22px 0 18px;
-// }
-
-// .card-title {
-//   position: absolute;
-//   left: -36px;
-//   top: -36px;
-//   padding: 16px 56px;
-//   font-family: $my-font;
-//   font-weight: bold;
-//   font-size: 24px;
-//   background: $m-color-d;
-// }
-
-// .card-icon {
-//   padding: 6px 14px;
-//   border: 3px solid $m-color;
-//   &:hover {
-//     background: $m-color-d;
-//     border: 3px solid $m-color-d;
-//     i {
-//       background: $m-color-d;
-//       color: white;
-//     }
-//   }
-// }
-
-// .i-link {
-//   padding: 6px 16px;
-//   position: absolute;
-//   right: 28px;
-//   bottom: 10px;
-// }
-// .i-code {
-//   position: absolute;
-//   right: -20px;
-//   bottom: 10px;
-// }
-
-// .card-desc {
-//   // border: 1px solid red;
-//   padding: 16px 24px 0 16px;
-// }
-
-// // card right part
-// .card-right {
-//   border: 1px solid blue;
-//   // grid-area: right;
-//   width: 50%;
-//   // min-width: 374px;
-//   padding: 16px 24px 0 0;
-//   ul {
-//     padding-left: 26px;
-//   }
-//   li {
-//     list-style-type: none;
-//   }
-// }
-// .card-s-title {
-//   margin: 0 0 24px;
-//   padding: 3px 18px;
-//   font-size: 16px;
-//   text-align: center;
-// }
-
-// @media (min-width: 100px) and (max-width: 575px) {
-//   .card-project-list {
-//     flex-direction: column;
-//     .card-part {
-//       width: 100%;
-//     }
-//   }
 // }

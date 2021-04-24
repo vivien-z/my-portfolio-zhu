@@ -22,13 +22,6 @@
   background: $m-black;
   border: none;
 }
-// .dropdown-menu {
-//   background: transparent;
-//   border: none;
-//   .dropdown-divider {
-//     border-color: $m-black;
-//   }
-// }
 
 .dropdown-item {
   font-size: 1.12rem;
@@ -62,14 +55,6 @@
   border-bottom: 4px solid $m-black;
   color: $m-black;
 }
-
-// .navbar-light .navbar-nav .active {
-//   font-weight: 700;
-//   .nav-link {
-//     border-bottom: 4px solid $m-black;
-//     color: $m-black;
-//   }
-// }
 
 @media (min-width: 100px) and (max-width: 575px) {
   .nav-link {
