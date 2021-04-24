@@ -78,11 +78,11 @@
 .card-desc p {
   // border: 1px solid red;
   // padding: 16px 24px 0 16px;
-  margin: 1em 0 0;
+  margin: 1em 0;
 }
 
 .card-s-title {
-  margin: 0 0 1.5em;
+  margin-bottom: 1.25em;
   font-size: 1rem;
   text-align: center;
 }
@@ -90,11 +90,20 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .card-project-list {
     flex-direction: column;
-    .card-part {
-      width: 100%;
-    }
+    padding: 1em;
+  }
+  .card-part {
+    width: 100%;
+  }
+  .card-title {
+    left: -1.5em;
+    top: -1.5em;
+  }
+  .i-code {
+    right: -1.5em;
   }
 }
+
 // // Smallest device
 // @media (min-width: 100px) and (max-width: 575px) {
 //   .card-project-list {
