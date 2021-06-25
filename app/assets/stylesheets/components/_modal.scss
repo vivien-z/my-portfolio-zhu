@@ -9,3 +9,18 @@
 //   top: 50%;
 //   left: 50%;
 // }
+.modal-header {
+  background: $m-color-d;
+  align-items: center;
+}
+.modal-header .close {
+  color: white;
+  padding: 0.5em 1.25em;
+}
+.modal-title {
+  padding: 0 1.25em;
+  font-family: $my-font;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
