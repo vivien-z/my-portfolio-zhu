@@ -1,6 +1,6 @@
 <div class="card-project-list">
 
-  <div class="card-part card-left flex-column">
+  <div class="card-part card-left flex-column" type="button" data-toggle="modal" data-target="#thePPartyModal">
     <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.001),rgba(0,0,0,0.001)), url('<%= image_path "the-p-party.png" %>')">
       <p class="card-title text-bfwp">The P Party</p>
       <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
@@ -15,19 +15,29 @@
     </div>
   </div>
 
-  <div class="card-part card-right">
-    <div>
-      <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
-      <p class="text-purple-d">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
-      <ul>
-        <li class="mb-2"><strong>Pundit</strong>
-          is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.
-        </li>
-        <li class="mb-2"><strong>Nominatim</strong>
-          is a geocoding provider, which uses <a href="https://www.openstreetmap.org/about/" target="_blank" class="text-link">OpenStreetMap</a>’s data. Renters' addresses will be convert to geocode and pinned on the map.
-        </li>
-      </ul>
+  <div id="thePPartyModal" class="card-part card-right modal fade" tabindex="-1" role="dialog" aria-labelledby="thePPartyModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="thePPartyModalTitle" class="modal-title">The P Party</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+          <p class="text-purple-d">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
+          <ul>
+            <li class="mb-2"><strong>Pundit</strong>
+              is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.
+            </li>
+            <li class="mb-2"><strong>Nominatim</strong>
+              is a geocoding provider, which uses <a href="https://www.openstreetmap.org/about/" target="_blank" class="text-link">OpenStreetMap</a>’s data. Renters' addresses will be convert to geocode and pinned on the map.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
 </div>
+
+

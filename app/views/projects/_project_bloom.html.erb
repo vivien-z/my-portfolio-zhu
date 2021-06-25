@@ -1,7 +1,6 @@
 <div class="card-project-list">
 
-  <div class="card-part card-left flex-column">
-
+  <div class="card-part card-left flex-column" type="button" data-toggle="modal" data-target="#bloomModal">
     <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "bloom.jpg" %>')">
       <p class="card-title text-bfwp">Bloom</p>
       <%= link_to "https://bloom-rom1023.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
@@ -11,24 +10,29 @@
         <i class="fas fa-code"></i>
       <% end %>
     </div>
-
     <div class="card-desc">
       <p class="">A web application on which doctors can post rare patient cases and look for help. Other doctors, from different regions, can communicate and contribute to find the solution together.</p>
     </div>
-
   </div>
 
-  <div class="card-part card-right">
-
-    <div>
-      <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
-      <p class="text-purple-d">Ruby on Rails | Device | Cloudinary | PG search | Action Cable | Redis</p>
-      <ul>
-        <li class="mb-2"><strong>Action Cable</strong> enables new messages be broadcasted to all subcribed users. The message will appear immedately on users' ends, without refreshing the page.</li>
-        <li class="mb-2"><strong>PG search</strong> provides search function based on PostgreSQL's full text search. It enables keywords search through customizable scopes.</li>
-      </ul>
+  <div id="bloomModal" class="card-part card-right modal fade" tabindex="-1" role="dialog" aria-labelledby="bloomModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="bloomModalTitle" class="modal-title">Bloom</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+          <p class="text-purple-d">Ruby on Rails | Device | Cloudinary | PG search | Action Cable | Redis</p>
+          <ul>
+            <li class="mb-2"><strong>Action Cable</strong> enables new messages be broadcasted to all subcribed users. The message will appear immedately on users' ends, without refreshing the page.</li>
+            <li class="mb-2"><strong>PG search</strong> provides search function based on PostgreSQL's full text search. It enables keywords search through customizable scopes.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-
   </div>
 
 </div>
+
