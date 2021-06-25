@@ -1,0 +1,33 @@
+<div class="card-project-list">
+
+  <div class="card-part card-left flex-column">
+    <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.001),rgba(0,0,0,0.001)), url('<%= image_path "the-p-party.png" %>')">
+      <p class="card-title text-bfwp">The P Party</p>
+      <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+        <i class="fas fa-link"></i>
+      <% end %>
+      <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+        <i class="fas fa-code"></i>
+      <% end %>
+    </div>
+    <div class="card-desc">
+      <p class="">A clone website of Airbnb. Users can book party themes, as well as, list their own party equipment for rent on the website.</p>
+    </div>
+  </div>
+
+  <div class="card-part card-right">
+    <div>
+      <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+      <p class="text-purple-d">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
+      <ul>
+        <li class="mb-2"><strong>Pundit</strong>
+          is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.
+        </li>
+        <li class="mb-2"><strong>Nominatim</strong>
+          is a geocoding provider, which uses <a href="https://www.openstreetmap.org/about/" target="_blank" class="text-link">OpenStreetMap</a>’s data. Renters' addresses will be convert to geocode and pinned on the map.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>

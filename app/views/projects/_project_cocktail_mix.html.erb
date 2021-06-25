@@ -1,0 +1,29 @@
+<div class="card-project-list">
+
+  <div class="card-part card-left flex-column">
+    <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "cocktail-mix.png" %>')">
+      <p class="card-title text-bfwp">Cocktail Mix</p>
+      <%= link_to "https://cocktail-party-v.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+        <i class="fas fa-link"></i>
+      <% end %>
+      <%= link_to "https://github.com/vivien-z/rails-mister-cocktail", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+        <i class="fas fa-code"></i>
+      <% end %>
+    </div>
+    <div class="card-desc">
+      <p class="">A web application. Users can create an account. User can build, edit, delete their own cocktail mix recipe online. Picture can be uploaded for the cocktail recipe built.</p>
+    </div>
+  </div>
+
+  <div class="card-part card-right">
+    <div>
+      <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+      <p class="text-purple-d">Ruby on Rails | Devise | Active Storage | Cloudinary </p>
+      <ul>
+        <li class="mb-2"><strong>Devise</strong> is an highly customizable authentication gem for Rails. Functions available: sign-up email confirmation, password recoverable, customizable email validation, failed sign-in attempts trigger account lock.</li>
+        <li class="mb-2"><strong>Cloudinary</strong> is a cloud storage service. It interacts with rails active storage and enables users to upload images/files to web app.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>

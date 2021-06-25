@@ -3,19 +3,27 @@
 =================*/
 
 .card-project-list {
+  width: 340px;
+  padding: 2.4em;
   border: 1px solid $m-color-d;
   max-width: 854px;
   margin: 2.5em auto;
-  padding: 2.4em 0;
+  // padding: 2.4em 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  // justify-content: space-evenly;
   p {
     font-size: 1em;
+  }
+  &:hover {
+    border: 1px solid $m-color-d;
+    box-shadow: 1px 4px 10px lightgray;
   }
 }
 
 .card-part {
-  width: 40%;
+  // width: 40%;
   ul {
     padding-left: 0; //1.625em
     margin-bottom: 0;
