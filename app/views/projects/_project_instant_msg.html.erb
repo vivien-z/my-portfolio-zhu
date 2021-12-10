@@ -1,0 +1,49 @@
+<div class="card-project-list">
+
+  <div class="card-part card-left flex-column" type="button" data-toggle="modal" data-target="#instantMsgModal">
+    <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "instant_msg.png" %>')">
+      <p class="card-title text-bfwp">Instant MSG</p>
+      <%= link_to "https://instant-msg-page.netlify.app/", target: "_blank", class: "card-icon i-link btml text-bfwp mr-1" do %>
+        <i class="fas fa-link"></i>
+      <% end %>
+      <%= link_to "https://github.com/vivien-z/instant-msg-app", target: "_blank", class: "card-icon i-code btmr text-bfwp" do %>
+        <i class="fas fa-code"></i>
+      <% end %>
+    </div>
+    <div class="card-desc">
+      <p class="">A single-page-application (SPA) enables cross server real-time messaging between users.</p>
+    </div>
+  </div>
+
+  <div id="instantMsgModal" class="card-part card-right modal fade" tabindex="-1" role="dialog" aria-labelledby="instantMsgModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="instantMsgModalTitle" class="modal-title">Instant MSG</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <div class="card-s-title text-purple"><strong>Hightlighted Features</strong></div>
+            <div>
+              <%= link_to "https://instant-msg-page.netlify.app/", target: "_blank", class: "card-icon i-link topl text-bfwp mr-1" do %>
+                <i class="fas fa-link"></i>
+              <% end %>
+              <%= link_to "https://github.com/vivien-z/instant-msg-app", target: "_blank", class: "card-icon i-code topr text-bfwp" do %>
+                <i class="fas fa-code"></i>
+              <% end %>
+            </div>
+          </div>
+          <p class="text-purple-d">React.js | Node.js | Express | Socket.io | Heroku | Netlify</p>
+          <p>Users can add contacts, create chatrooms with existing contacts, send real time messages in a chatroom.</p>
+          <ul>
+            <li class="mb-2"><strong>Socket.io</strong> enables realtime, cross server communication.</li>
+            <li class="mb-2"><strong>Local Storage</strong> is set to serve as a temporary database.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

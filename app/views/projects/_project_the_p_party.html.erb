@@ -3,15 +3,15 @@
   <div class="card-part card-left flex-column" type="button" data-toggle="modal" data-target="#thePPartyModal">
     <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.001),rgba(0,0,0,0.001)), url('<%= image_path "the-p-party.png" %>')">
       <p class="card-title text-bfwp">The P Party</p>
-      <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+      <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link btml text-bfwp mr-1" do %>
         <i class="fas fa-link"></i>
       <% end %>
-      <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+      <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code btmr text-bfwp" do %>
         <i class="fas fa-code"></i>
       <% end %>
     </div>
     <div class="card-desc">
-      <p class="">A clone website of Airbnb. Users can book party themes, as well as, list their own party equipment for rent on the website.</p>
+      <p class="">A clone website of Airbnb. Users can list/rent equipment and decorations for different party thems on the website.</p>
     </div>
   </div>
 
@@ -23,8 +23,19 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body">
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+          <div>
+            <div class="card-s-title text-purple"><strong>Hightlighted Features</strong></div>
+            <div>
+              <%= link_to "https://the-p-party.herokuapp.com/", target: "_blank", class: "card-icon i-link topl text-bfwp mr-1" do %>
+                <i class="fas fa-link"></i>
+              <% end %>
+              <%= link_to "https://github.com/vivien-z/the-p-party", target: "_blank", class: "card-icon i-code topr text-bfwp" do %>
+                <i class="fas fa-code"></i>
+              <% end %>
+            </div>
+          </div>
           <p class="text-purple-d">Ruby on Rails | Devise | Pundit | Cloudinary | Nominatim | PG search</p>
+          <p>Users can create an account, post their party themes for rent, attach photos, add descriptions. Users can search party themes by keywords, browse available themes by location through the tagged map, select date range from calendar and book interested party themes.</p>
           <ul>
             <li class="mb-2"><strong>Pundit</strong>
               is a ruby based gem which helps creating object oriented authorization system. Condition and differentiate users' accessibility to app features.

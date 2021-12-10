@@ -69,17 +69,29 @@
     }
   }
 }
-
 .i-link {
   padding: 0.375em 1em;
+}
+// button position
+.btml {
   position: absolute;
   right: 1.75em;
   bottom: 0.6em;
 }
-.i-code {
+.btmr {
   position: absolute;
   right: -1.25em;
   bottom: 0.6em;
+}
+.topl {
+  position: absolute;
+  right: 4.25em;
+  top: 3.75em;
+}
+.topr {
+  position: absolute;
+  right: 1.25em;
+  top: 3.75em;
 }
 /*-------------------*/
 .card-desc p {
@@ -88,7 +100,7 @@
 
 .card-s-title {
   margin-bottom: 1.25em;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
