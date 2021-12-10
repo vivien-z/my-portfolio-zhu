@@ -1,24 +1,9 @@
-# README
+# Personal Profile Page
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Content summary:
 
-Things you may want to cover:
+* About me
 
-* Ruby version
+* Tech Skill listed
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Projects
