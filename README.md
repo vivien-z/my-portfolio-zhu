@@ -1,6 +1,6 @@
-# Personal Profile Page
+# Personal Profile
 
-## Content summary:
+Want to know more about me? check [my page]("https://www.yuanyuan-zhu.com") out
 
 * About me
 
