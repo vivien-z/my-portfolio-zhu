@@ -1,0 +1,54 @@
+<div class="card-project-list">
+
+  <div class="card-part card-left flex-column" type="button" data-toggle="modal" data-target="#gardenPlanningModal">
+
+    <div class="card-pic" style="background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)), url('<%= image_path "garden-api.png" %>')">
+      <p class="card-title text-bfwp">Garden Planning</p>
+      <%= link_to "http://garden-plan-with-api.herokuapp.com/", target: "_blank", class: "card-icon i-link btml text-bfwp mr-1" do %>
+        <i class="fas fa-link"></i>
+      <% end %>
+      <%= link_to "https://github.com/vivien-z/garden-api", target: "_blank", class: "card-icon i-code btmr text-bfwp" do %>
+        <i class="fas fa-code"></i>
+      <% end %>
+    </div>
+
+    <div class="card-desc">
+      <p class="">A web application enables users to arrange garden plantings and seeding schedules on site. Plant information can be accessed through API, with authentication.</p>
+      <p class="text-purple">More fetures are coming...</p>
+    </div>
+
+  </div>
+
+  <div id="gardenPlanningModal" class="card-part card-right modal fade" tabindex="-1" role="dialog" aria-labelledby="gardenPlanningModalTitle" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="gardenPlanningModalTitle" class="modal-title">Garden Planning</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <div class="card-s-title text-purple"><strong>Features</strong></div>
+            <div>
+              <%= link_to "http://garden-plan-with-api.herokuapp.com/", target: "_blank", class: "card-icon i-link text-bfwp mr-1" do %>
+                <i class="fas fa-link"></i>
+              <% end %>
+              <%= link_to "https://github.com/vivien-z/garden-api", target: "_blank", class: "card-icon i-code text-bfwp" do %>
+                <i class="fas fa-code"></i>
+              <% end %>
+            </div>
+          </div>
+          <p class="text-purple-d">Ruby on Rails | Javascript | StimulusReflex | Dropzone </p>
+          <p >Users can add/browse plant information, create customized gardens by field size and city(zone), drag-n-drop plants to add and arrange plants in the garden field.</p>
+          <ul>
+            <li class="mb-2"><strong>StimulusReflex</strong> enables real-time user interaction to communicate with the server. Light and customizable partial re-render, further shortened UI updating time.</li>
+            <li class="mb-2"><strong>Drag-n-drop</strong> Dropzone library used for file uploading; vanilla javascript used for drag plants to the garden field.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
