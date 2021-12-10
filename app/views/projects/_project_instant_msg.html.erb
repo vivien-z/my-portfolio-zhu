@@ -23,7 +23,17 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body">
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+          <div>
+            <div class="card-s-title text-purple"><strong>Hightlighted Features</strong></div>
+            <div>
+              <%= link_to "https://instant-msg-page.netlify.app/", target: "_blank", class: "card-icon i-link topl text-bfwp mr-1" do %>
+                <i class="fas fa-link"></i>
+              <% end %>00
+              <%= link_to "https://github.com/vivien-z/instant-msg-app", target: "_blank", class: "card-icon i-code topr text-bfwp" do %>
+                <i class="fas fa-code"></i>
+              <% end %>
+            </div>
+          </div>
           <p class="text-purple-d">React.js | Node.js | Express | Socket.io | Heroku | Netlify</p>
           <ul>
             <li class="mb-2"><strong>Socket.io</strong> enables realtime, cross server communication.</li>

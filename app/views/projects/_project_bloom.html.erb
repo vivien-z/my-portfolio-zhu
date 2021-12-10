@@ -5,7 +5,7 @@
       <p class="card-title text-bfwp">Bloom</p>
       <%= link_to "https://bloom-rom1023.herokuapp.com/", target: "_blank", class: "card-icon i-link btml text-bfwp mr-1" do %>
         <i class="fas fa-link"></i>
-      <% end %>00
+      <% end %>
       <%= link_to "https://github.com/Rom1023/bloom", target: "_blank", class: "card-icon i-code btmr text-bfwp" do %>
         <i class="fas fa-code"></i>
       <% end %>
@@ -23,7 +23,17 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body">
-          <p class="card-s-title text-purple"><strong>Hightlighted Features</strong></p>
+          <div>
+            <div class="card-s-title text-purple"><strong>Hightlighted Features</strong></div>
+            <div>
+              <%= link_to "https://bloom-rom1023.herokuapp.com/", target: "_blank", class: "card-icon i-link topl text-bfwp mr-1" do %>
+                <i class="fas fa-link"></i>
+              <% end %>
+              <%= link_to "https://github.com/Rom1023/bloom", target: "_blank", class: "card-icon i-code topr text-bfwp" do %>
+                <i class="fas fa-code"></i>
+              <% end %>
+            </div>
+          </div>
           <p class="text-purple-d">Ruby on Rails | Device | Cloudinary | PG search | Action Cable | Redis</p>
           <ul>
             <li class="mb-2"><strong>Action Cable</strong> enables new messages be broadcasted to all subcribed users. The message will appear immedately on users' ends, without refreshing the page.</li>
