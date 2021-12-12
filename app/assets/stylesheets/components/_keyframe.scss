@@ -1,13 +1,7 @@
-@keyframes jump_bg {
-  0%   {top: -2.5em;}
-  45%  {top: -4.2em;}
-  100% {top: -2.5em;}
-}
-
-@keyframes jump_sm {
-  0%   {top: -2.5em;}
-  45%  {top: -4.2em;}
-  100% {top: -2.5em;}
+@keyframes jump {
+  0% {top: 0;}
+  45% {top: -2.2em;}
+  100% {top: 0;}
 }
 
 @keyframes swing {

@@ -25,11 +25,11 @@
   &:hover {
     border: 1px solid $m-color-d;
     // border: none;
-    box-shadow: 1px 4px 15px rgba(118,120,237, 0.8);
+    box-shadow: 2px 4px 16px rgba(118,120,237, 0.4);
     .card-title {
       animation-name: swing;
       animation-duration: 1s;
-      animation-timing-function: ease;
+      animation-timing-function: linear ease;
     }
     .i-link {
       animation-name: flash;
