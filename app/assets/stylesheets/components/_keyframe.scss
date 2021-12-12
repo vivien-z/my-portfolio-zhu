@@ -1,0 +1,23 @@
+@keyframes jump_bg {
+  0%   {top: -2.5em;}
+  45%  {top: -4.2em;}
+  100% {top: -2.5em;}
+}
+
+@keyframes jump_sm {
+  0%   {top: -2.5em;}
+  45%  {top: -4.2em;}
+  100% {top: -2.5em;}
+}
+
+@keyframes swing {
+  0%   {left: -2.5em;}
+  50%  {left: -4.2em;}
+  100% {left: -2.5em;}
+}
+
+@keyframes flash {
+  0%   {background-color: $m-color; border-color: $m-color;}
+  40%  {background-color: $m-color-d; border-color: $m-color-d;}
+  100% {background-color: $m-color; border-color: $m-color;}
+}
