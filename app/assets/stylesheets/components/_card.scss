@@ -24,7 +24,24 @@
   }
   &:hover {
     border: 1px solid $m-color-d;
-    box-shadow: 1px 4px 15px lightgray;
+    // border: none;
+    box-shadow: 2px 4px 16px rgba(118,120,237, 0.4);
+    .card-title {
+      animation-name: swing;
+      animation-duration: 1s;
+      animation-timing-function: linear ease;
+    }
+    .i-link {
+      animation-name: flash;
+      animation-duration: 0.3s;
+      animation-timing-function: linear;
+    }
+    .i-code {
+      animation-name: flash;
+      animation-duration: 0.3s;
+      animation-timing-function: linear;
+      animation-delay: 0.2s;
+    }
   }
 }
 
@@ -48,7 +65,7 @@
 
 .card-title {
   position: absolute;
-  left: -2.2em;
+  left: -2.5em;
   top: -1.25em;
   padding: 0.8em 2.8em;
   font-family: $my-font;
@@ -70,26 +87,29 @@
   }
 }
 .i-link {
+  position: absolute;
   padding: 0.375em 1em;
+}
+.i-code {
+  position: absolute;
+  right: -1.5em;
 }
 // button position
 .btml {
-  position: absolute;
   right: 1.75em;
   bottom: 0.6em;
 }
 .btmr {
-  position: absolute;
   right: -1.25em;
   bottom: 0.6em;
 }
 .topl {
-  position: absolute;
+  // position: absolute;
   right: 4.25em;
   top: 3.75em;
 }
 .topr {
-  position: absolute;
+  // position: absolute;
   right: 1.25em;
   top: 3.75em;
 }
@@ -116,9 +136,6 @@
   .card-title {
     left: -1.5em;
     top: -1.5em;
-  }
-  .i-code {
-    right: -1.5em;
   }
 }
 
